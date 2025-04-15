@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+html {
+    direction: rtl !important;
+    scroll-behavior: smooth !important;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif !important;
+    font-size: 16px;
+    background-color: #f0f2f5 !important;
+    color: #333 !important;
+    margin: 0 !important;
+    padding: 20px !important;
+}
+
+/* الهيدر */
+header {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+    margin-bottom: 25px !important;
+    padding: 10px 0 !important;
+}
+
+nav ul {
+    display: flex !important;
+    justify-content: center !important;
+    list-style: none !important;
+    padding: 0 !important;
+}
+
+nav ul li {
+    margin: 0 20px !important;
+}
+
+nav ul li a {
+    color: #333 !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+    transition: color 0.3s ease !important;
+}
+
+nav ul li a:hover {
+    color: #007BFF !important;
+}
+
+/* العناوين */
+h1 {
+    text-align: center !important;
+    font-size: 2.4em !important;
+    color: #007BFF !important;
+    margin-bottom: 30px !important;
+}
+
+.container {
+    max-width: 1200px !important;
+    margin: auto !important;
+    background: #fff !important;
+    padding: 30px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+}
+
+/* الجداول */
+table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin: 20px 0 !important;
+    background: #fff !important;
+}
+
+table th, table td {
+    padding: 12px 18px !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    text-align: right !important;
+}
+
+table tr:hover {
+    background-color: #f9f9f9 !important;
+}
+
+a.button {
+    background-color: #007BFF !important;
+    color: white !important;
+    padding: 10px 18px !important;
+    border-radius: 6px !important;
+    text-decoration: none !important;
+    transition: background-color 0.3s ease !important;
+    font-weight: 500 !important;
+}
+
+a.button:hover {
+    background-color: #0056b3 !important;
+}
+
+/* نموذج الإدخال */
+form {
+    background-color: #fff !important;
+    padding: 25px !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+    max-width: 600px !important;
+    margin: 0 auto 30px auto !important;
+}
+
+form label {
+    display: block !important;
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+    color: #444 !important;
+}
+
+form input, form select, form textarea {
+    width: 100% !important;
+    padding: 10px !important;
+    margin-bottom: 18px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 6px !important;
+    font-size: 1em !important;
+    box-sizing: border-box !important;
+}
+
+form button {
+    background-color: #28a745 !important;
+    color: white !important;
+    border: none !important;
+    padding: 12px 20px !important;
+    font-size: 1em !important;
+    border-radius: 6px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+}
+
+form button:hover {
+    background-color: #218838 !important;
+}
+
+/* رسائل تنبيه */
+.alert {
+    padding: 15px 20px !important;
+    border-radius: 5px !important;
+    margin-bottom: 20px !important;
+    font-weight: 500 !important;
+}
+
+.alert-success {
+    background-color: #d4edda !important;
+    color: #155724 !important;
+    border: 1px solid #c3e6cb !important;
+}
+
+.alert-error {
+    background-color: #f8d7da !important;
+    color: #721c24 !important;
+    border: 1px solid #f5c6cb !important;
+}
+
+/* أيقونات في الجداول */
+.table-action a {
+    margin-left: 10px !important;
+    color: #007BFF !important;
+    text-decoration: none !important;
+    font-weight: 500 !important;
+}
+
+.table-action a:hover {
+    text-decoration: underline !important;
+}
+
+/* روابط العودة */
+a.back-link {
+    display: inline-block !important;
+    margin-top: 15px !important;
+    color: #555 !important;
+    text-decoration: none !important;
+}
+
+a.back-link:hover {
+    color: #000 !important;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block !important;
+    }
+
+    table tr {
+        margin-bottom: 15px !important;
+    }
+
+    table td {
+        text-align: right !important;
+        padding: 10px !important;
+        border: none !important;
+        border-bottom: 1px solid #eee !important;
+    }
+
+    form {
+        padding: 20px !important;
+    }
+}

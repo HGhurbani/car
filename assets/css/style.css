@@ -1,0 +1,95 @@
+/*******************************
+ * style.css
+ *******************************/
+
+html[dir="rtl"], body[dir="rtl"] {
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  font-family: 'Cairo', sans-serif;
+  color: #212529;
+}
+
+/* الروابط */
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* الحاوية العامة */
+.container, .dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+
+/* العناوين */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* فواصل */
+hr {
+  margin: 20px 0;
+  border-color: #e9ecef;
+}
+
+/* أزرار */
+.btn {
+  border-radius: 4px;
+  transition: 0.3s ease all;
+}
+
+/* الجداول */
+.table {
+  width: 100%;
+  background-color: #fff;
+}
+
+.table thead th {
+  background-color: #e9ecef;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: #f8f8f8;
+}
+
+/* تنسيق نموذج تسجيل الدخول */
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.login-container h4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Toastify */
+.toastify {
+  font-family: 'Cairo', sans-serif;
+  font-size: 14px;
+}
+
+/* SweetAlert */
+.swal2-popup {
+  font-family: 'Cairo', sans-serif !important;
+  font-size: 15px !important;
+}
+
+/* Select2 إصلاح ارتفاع الحقل */
+.select2-container--default .select2-selection--single {
+  height: 38px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
